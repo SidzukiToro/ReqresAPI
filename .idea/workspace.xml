@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a31e9ac3-680a-4350-a51a-aa12928b1755" name="Changes" comment="Здарова👋">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/steps/apiSteps/UserSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/apiSteps/UserSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Example.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +54,6 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Hp/IdeaProjects/Recresin&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -66,11 +66,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.Tests">
-    <configuration name="Tests" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Example.getDelayedResponse">
+    <configuration name="Example" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Recresin" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Example" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -78,10 +78,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests.getDelayedResponse" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Example.getDelayedResponse" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Recresin" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Example" />
       <option name="METHOD_NAME" value="getDelayedResponse" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -90,10 +90,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests.getResourceListResponse" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Example.getResourceListResponse" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Recresin" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Example" />
       <option name="METHOD_NAME" value="getResourceListResponse" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -102,10 +102,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests.postSuccessfulRegister" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Example.postSuccessfulRegister" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Recresin" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Example" />
       <option name="METHOD_NAME" value="postSuccessfulRegister" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -114,10 +114,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests.postUnsuccessfulLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Example.postUnsuccessfulLogin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Recresin" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Example" />
       <option name="METHOD_NAME" value="postUnsuccessfulLogin" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -128,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Tests" />
-        <item itemvalue="TestNG.Tests.getDelayedResponse" />
-        <item itemvalue="TestNG.Tests.postSuccessfulRegister" />
-        <item itemvalue="TestNG.Tests.getResourceListResponse" />
-        <item itemvalue="TestNG.Tests.postUnsuccessfulLogin" />
+        <item itemvalue="TestNG.Example.getDelayedResponse" />
+        <item itemvalue="TestNG.Example" />
+        <item itemvalue="TestNG.Example.postSuccessfulRegister" />
+        <item itemvalue="TestNG.Example.getResourceListResponse" />
+        <item itemvalue="TestNG.Example.postUnsuccessfulLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -153,29 +153,7 @@
       <workItem from="1703016210422" duration="1716000" />
       <workItem from="1703017979914" duration="761000" />
       <workItem from="1703021565770" duration="217000" />
-      <workItem from="1703021872912" duration="1097000" />
-      <workItem from="1703023059676" duration="111000" />
-      <workItem from="1703023228231" duration="61000" />
-      <workItem from="1703058711251" duration="239000" />
-      <workItem from="1703059088266" duration="3000" />
-      <workItem from="1703059096417" duration="4000" />
-      <workItem from="1703059135917" duration="5000" />
-      <workItem from="1703059236167" duration="5000" />
-      <workItem from="1703059346894" duration="9000" />
-      <workItem from="1703059533791" duration="7000" />
-      <workItem from="1703063122098" duration="33000" />
-      <workItem from="1703072048283" duration="1036000" />
-      <workItem from="1703073502623" duration="260000" />
-      <workItem from="1703076769549" duration="13000" />
-      <workItem from="1703144700259" duration="30000" />
-      <workItem from="1703149448229" duration="4000" />
-      <workItem from="1703153793284" duration="91000" />
-      <workItem from="1703181931581" duration="344000" />
-      <workItem from="1703236995635" duration="205000" />
-      <workItem from="1703237424520" duration="436000" />
-      <workItem from="1703238032707" duration="132000" />
-      <workItem from="1703238312530" duration="582000" />
-      <workItem from="1703239309360" duration="343000" />
+      <workItem from="1703021872912" duration="1036000" />
     </task>
     <task id="LOCAL-00001" summary="Здарова👋">
       <option name="closed" value="true" />
@@ -209,40 +187,13 @@
       <option name="project" value="LOCAL" />
       <updated>1703016426055</updated>
     </task>
-    <task id="LOCAL-00005" summary="Здарова👋">
-      <option name="closed" value="true" />
-      <created>1703022960339</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1703022960339</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Здарова👋">
-      <option name="closed" value="true" />
-      <created>1703237665996</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1703237665996</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Здарова👋">
-      <option name="closed" value="true" />
-      <created>1703238785022</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1703238785022</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Здарова" />
-    <MESSAGE value="Здарова" />
-    <MESSAGE value="Здарова" />
     <MESSAGE value="Здарова" />
     <MESSAGE value="Здарова" />
     <MESSAGE value="Здарова" />
